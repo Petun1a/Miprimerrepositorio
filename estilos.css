@@ -1,0 +1,15 @@
+body {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3 {
+    color:whitesmoke; 
+    background-color: blueviolet;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25 px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:underline
+}
