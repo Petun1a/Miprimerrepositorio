@@ -28,13 +28,15 @@
         </div>
       </form>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <script>
-      // se capaturan los eventos con el metodo addEventListener
-      window.addEventListener("DOMContentLoaded", inicioEventos); //se puede utilizar el evento load
+      // Jquery
+      let x = $(document);
+      x.ready(inicioEventos);
       function inicioEventos() {
-        document
-          .getElementById("formulario")
-          .addEventListener("submit", verificar);
+        let x = $("#formulario");
+        x.submit(verificar);
       }
       const user = "marinaCh";
       const pw = 1234;
